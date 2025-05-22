@@ -4,8 +4,8 @@ const navlinks = [
         url: "/home"
     },
     {
-        name: "about us",
-        url: "/about-us"
+        name: "about",
+        url: "/about"
     },
     {
         name: "features",

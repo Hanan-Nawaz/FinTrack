@@ -12,7 +12,7 @@ function Navbar() {
     return (
         <>
             <div className='nav flex h-[70px] bg-white h-[80px] justify-between border-1 border-gray-200'>
-                <div className="flex justify-center items-center text-[25px] flex-[0.45] bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-[600]">finTrack</div>
+                <div className="flex justify-center items-center text-[25px] flex-[0.45] bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-[600]">finTrack<span className='text-[60px] mt-[-15px]'>.</span></div>
                 <ul className="hidden lg:flex flex-[1.5] items-center justify-evenly">
                     {navlinks.map((link, index) => (
                         <li key={index}>
