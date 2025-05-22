@@ -12,8 +12,8 @@ function Navbar() {
     return (
         <>
             <div className='nav flex h-[70px] bg-white h-[80px] justify-between border-1 border-gray-200'>
-                <div className="flex justify-center items-center text-[25px] flex-[0.5] bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-[600]">finTrack</div>
-                <ul className="hidden lg:flex flex-1 items-center justify-evenly">
+                <div className="flex justify-center items-center text-[25px] flex-[0.45] bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent font-[600]">finTrack</div>
+                <ul className="hidden lg:flex flex-[1.5] items-center justify-evenly">
                     {navlinks.map((link, index) => (
                         <li key={index}>
                             <a href={link.url} className='text-[15px] text-gray-400'>{link.name}</a>
@@ -22,7 +22,7 @@ function Navbar() {
 
                     }
                 </ul>
-                <div className="hidden lg:flex flex-[0.5] items-center justify-center">
+                <div className="hidden lg:flex flex-[0.6] items-center justify-center">
                     <button className=' w-[100px] h-[40px] bg-blue-500 rounded-[20px] border-1 border-blue-500 text-white hover:text-blue-500 hover:bg-white mr-10 '>
                         Sign in
                     </button>

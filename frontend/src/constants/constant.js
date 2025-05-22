@@ -17,6 +17,26 @@ const navlinks = [
     }
 ]
 
+const userLinks = [
+    {
+        name: "Linkedin",
+        link: "https://www.linkedin.com/in/abdulhanan0/"
+    },
+    {
+        name: "Github",
+        link: "https://github.com/Hanan-Nawaz"
+    },
+    {
+        name: "Portfolio",
+        link: "https://hanannawaz.me"
+    },
+    {
+        name: "github-repo",
+        link: "https://github.com/Hanan-Nawaz/FinTrack"
+    }
+]
+
 export {
     navlinks,
+    userLinks
 }
