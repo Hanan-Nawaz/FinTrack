@@ -2,7 +2,7 @@ import React from 'react'
 
 function contact() {
     return (
-        <div className='flex-col flex lg:flex-row lg:ml-20'>
+        <section className='flex-col flex lg:flex-row lg:ml-20' id='contact'>
             <div className='ml-10 md:ml-20 lg:ml-0 flex-1 '>
                 <div className='text-blue-800 w-[100px] text-[30px] font-semibold'>Contact <span className='block border-b-[1px] w-[50px] ml-auto mr-auto'></span></div>
                 <p className='mt-3 text-gray-500'>Our friendly team would love to hear from you!</p>
@@ -39,7 +39,7 @@ function contact() {
             <div className='flex-1 mt-10 md:mt-0'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53941.24015558993!2d74.32358425447255!3d32.32991620621753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391edbaf7b7f8025%3A0xdf762e65d36172c0!2sDaska%2C%20Pakistan!5e0!3m2!1sen!2sde!4v1747994734446!5m2!1sen!2sde" className='w-full' height="600" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
+        </section>
     )
 }
 

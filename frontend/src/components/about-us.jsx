@@ -5,7 +5,7 @@ import { TbView360Number } from "react-icons/tb";
 
 function aboutus() {
     return (
-        <div className='mx-10 md:mx-20 mb-10'>
+        <section className='mx-10 md:mx-20 mb-10' id='about'>
             <h1 className=" text-blue-800 font-semibold text-[30px] w-[200px] mb-10 mr-auto ml-auto">About finTrack <span className='block border-b border-b-blue-800 w-[100px] ml-auto mr-auto'></span></h1>
             <div className="flex flex-col lg:flex-row ">
                 <div className="flex-1">
@@ -44,7 +44,7 @@ function aboutus() {
                 </div>
 
             </div>
-        </div>
+        </section>
     )
 }
 

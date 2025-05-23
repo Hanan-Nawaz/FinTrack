@@ -6,7 +6,7 @@ import { IoMdPeople } from 'react-icons/io';
 
 function features() {
     return (
-        <div className='mx-10 md:mx-20 mb-10'>
+        <section className='mx-10 md:mx-20 mb-10' id='features'>
             <div className='text-blue-800 font-semibold text-[30px] w-[100px] justify-center ml-auto mr-auto block'>Features<span className='block border-b-[1px] w-[50px] ml-auto mr-auto'></span></div>
 
             <div className="flex flex-col lg:flex-row mt-10">
@@ -43,7 +43,7 @@ function features() {
                     <p className='text-justify mb-2'>Turn spending awareness into real savings. FinTrack shows you how much you’re saving each month by comparing income to expenses. You can set personal savings goals and visually track progress over time. Celebrate milestones as you grow your savings confidently. With FinTrack, saving money feels more like a reward than a routine.</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
