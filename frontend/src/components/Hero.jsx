@@ -1,7 +1,7 @@
 import React from 'react'
 import { hero } from '../images/index';
 
-function hero() {
+function Hero() {
   return (
     <section className="flex flex-col sm:flex-row  justify-center bg-transparent mx-10 md:mx-20" id='home'>
         <div className='flex flex-1 flex-col justify-center mt-10 sm:mt-0 '>
@@ -16,4 +16,4 @@ function hero() {
   )
 }
 
-export default hero;
+export default Hero;
