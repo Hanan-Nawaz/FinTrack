@@ -9,7 +9,7 @@ function features() {
         <div className='mx-10 md:mx-20 mb-10'>
             <div className='text-blue-800 font-semibold text-[30px] w-[100px] justify-center ml-auto mr-auto block'>Features<span className='block border-b-[1px] w-[50px] ml-auto mr-auto'></span></div>
 
-            <div className="flex flex-col md:flex-row mt-10">
+            <div className="flex flex-col lg:flex-row mt-10">
                 <div className="flex-1 flex flex-col md:mx-5 mb-4 border-1 border-gray-200 p-5 rounded shadow">
                     <span className='flex text-blue-800 text-[50px] justify-center mb-2'>{<FaReceipt />}</span>
                     <h1 className='text-center font-[1000] text-[20px] mb-2 '>Track Your Expense</h1>
@@ -26,7 +26,7 @@ function features() {
                     <p className='text-justify mb-2'>Get a bird’s-eye view of your finances with FinTrack’s insightful dashboard. Visual charts, trends, and comparisons help you analyze your spending patterns with ease. Track monthly summaries, top categories, and cash flow in one place. It’s designed to turn complex data into actionable insights. With this clarity, managing money becomes a confident, informed process.</p>
                 </div>
             </div>
-             <div className="flex flex-col md:flex-row mt-4">
+             <div className="flex flex-col lg:flex-row mt-4">
                 <div className="flex-1 flex flex-col md:mx-5 mb-4 border-1 border-gray-200 p-5 rounded shadow">
                     <span className='flex text-blue-800 text-[50px] justify-center mb-2 mb-2'>{<IoMdPeople />}</span>
                     <h1 className='text-center font-[1000] text-[20px] mb-2  mb-2'>Download Excel Reports</h1>
