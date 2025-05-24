@@ -3,7 +3,7 @@ import { sign_in } from '../images/index.js'
 
 function signin() {
     return (
-        <div className='flex flex-col md:flex-row my-20 mx-20 border-1 rounded border-gray-200 shadow'>
+        <div className='flex flex-col md:flex-row my-20  mx-10 md:mx-20 border-1 rounded border-gray-200 shadow'>
             <div className='flex-1'>
                 <img src={sign_in} className='h-100 md:h-full' />
             </div>

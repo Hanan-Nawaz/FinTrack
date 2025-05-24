@@ -3,7 +3,7 @@ import { sign_up } from '../images/index.js'
 
 function signup() {
   return (
-    <div className='flex flex-col md:flex-row my-20 mx-20 border-1 rounded border-gray-200 shadow'>
+    <div className='flex flex-col md:flex-row my-20 mx-10 md:mx-20 border-1 rounded border-gray-200 shadow'>
               
                <div className='flex-1 mx-5 my-7'>
                    <div className='ml-auto mr-auto text-blue-800 font-semibold text-[30px] w-[100px]'>finTrack <span className='block border-b border-blue-500 w-[50px] ml-auto mr-auto'></span></div>
