@@ -23,12 +23,12 @@ function Navbar() {
                     }
                 </ul>
                 <div className="hidden lg:flex flex-[0.6] items-center justify-center">
-                    <button className=' w-[100px] h-[40px] bg-blue-500 rounded-[20px] border-1 border-blue-500 text-white hover:text-blue-500 hover:bg-white mr-10 '>
+                    <a href='/sign-in' className='flex items-center w-[100px] justify-center  h-[40px] bg-blue-500 rounded-[20px] border-1 border-blue-500 text-white hover:text-blue-500 hover:bg-white mr-10 '>
                         Sign in
-                    </button>
-                    <button className=' w-[100px] h-[40px] border-1 border-blue-500 rounded-[20px] text-blue-500 hover:bg-blue-500 hover:text-white'>
+                    </a>
+                    <a href='/sign-up' className='flex items-center w-[100px] justify-center h-[40px] border-1 border-blue-500 rounded-[20px] text-blue-500 hover:bg-blue-500 hover:text-white'>
                         Sign up
-                    </button>
+                    </a>
                 </div>
 
                 <div className="flex lg:hidden justify-center items-center mr-[20px] text-[20px]" onClick={handleToggle}>
@@ -50,12 +50,12 @@ function Navbar() {
                     }
                 </ul>
                 <div className="lg:hidden flex  items-center justify-center my-[10px]">
-                    <button className=' w-[100px] h-[40px] bg-blue-500 rounded-[20px] border-1 border-blue-500 text-white hover:text-blue-500 hover:bg-white mr-10 '>
+                   <a href='/sign-in' className='flex items-center w-[100px] justify-center  h-[40px] bg-blue-500 rounded-[20px] border-1 border-blue-500 text-white hover:text-blue-500 hover:bg-white mr-10 '>
                         Sign in
-                    </button>
-                    <button className=' w-[100px] h-[40px] border-1 border-blue-500 rounded-[20px] text-blue-500 hover:bg-blue-500 hover:text-white'>
+                    </a>
+                    <a href='/sign-up' className='flex items-center w-[100px] justify-center h-[40px] border-1 border-blue-500 rounded-[20px] text-blue-500 hover:bg-blue-500 hover:text-white'>
                         Sign up
-                    </button>
+                    </a>
                 </div>
                 </div>
 

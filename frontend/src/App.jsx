@@ -4,6 +4,7 @@ import Aboutus from './components/about-us';
 import Features from './components/features';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import SignIn from './components/sign-in';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Layout><HomeLayout /></Layout>} />
-
+          <Route path='/sign-in' element={<Layout><SignIn /></Layout>} />
         </Routes>
 
       </BrowserRouter>

@@ -1,19 +1,19 @@
 const navlinks = [
     {
         name: "home",
-        url: "#home"
+        url: "/#home"
     },
     {
         name: "about",
-        url: "#about"
+        url: "/#about"
     },
     {
         name: "features",
-        url: "#features"
+        url: "/#features"
     },
     {
         name: "contact",
-        url: "#contact"
+        url: "/#contact"
     }
 ]
 

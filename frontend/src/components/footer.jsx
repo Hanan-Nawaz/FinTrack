@@ -3,7 +3,7 @@ import { FiLinkedin, FiFacebook, FiInstagram, FiGithub, FiGlobe, FiTwitter } fro
 
 function footer() {
   return (
-    <div className='bg-blue-500 mt-6 h-25'>
+    <div className='bg-blue-500 mt-6 h-25 w-full'>
       <div className='flex iems-center justify-center pt-5'>
         <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiLinkedin />}</a>
         <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiGithub />}</a>
