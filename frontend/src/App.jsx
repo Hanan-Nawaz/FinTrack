@@ -5,6 +5,7 @@ import Features from './components/features';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import SignIn from './components/sign-in';
+import SignUp from './components/sign-up';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Layout><HomeLayout /></Layout>} />
           <Route path='/sign-in' element={<Layout><SignIn /></Layout>} />
+          <Route path='/sign-up' element={<Layout><SignUp /></Layout>} />
         </Routes>
 
       </BrowserRouter>

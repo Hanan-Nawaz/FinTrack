@@ -3,7 +3,7 @@ import { sign_in } from '../images/index.js'
 
 function signin() {
     return (
-        <div className='flex flex-col md:flex-row my-20 mx-10 border-1 rounded border-gray-200 shadow'>
+        <div className='flex flex-col md:flex-row my-20 mx-20 border-1 rounded border-gray-200 shadow'>
             <div className='flex-1'>
                 <img src={sign_in} className='h-100 md:h-full' />
             </div>
@@ -29,7 +29,7 @@ function signin() {
                 </div>
 
                 <div className='flex flex-col mt-10'>
-                    <button className=' p-2 bg-blue-500 text-white hover:text-blue-500 hover:bg-transparent  h-10 hover:border-1 hover:border-blue-500 rounded ' placeholder='enter your email'>Sign in</button>
+                    <button className=' p-2 bg-blue-500 text-white hover:text-blue-500 hover:bg-transparent  h-10 hover:border-1 hover:border-blue-500 rounded '>Sign in</button>
                 </div>
 
                 <div className="flex justify-end items-center mx-10 mt-4 text-[7px] md:text-[12px]">
