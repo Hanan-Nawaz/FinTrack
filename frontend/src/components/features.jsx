@@ -34,8 +34,8 @@ function features() {
                 </div>
                 <div className="flex-1 flex flex-col md:mx-5 mb-4 border-1 border-gray-200 p-5 rounded shadow">
                     <span className='flex text-blue-800 text-[50px] justify-center mb-2'>{<FaPiggyBank />}</span>
-                    <h1 className='text-center font-[1000] text-[20px]  mb-2'>Split Expense with Friends</h1>
-                    <p className='text-justify mb-2'>Easily manage shared costs with FinTrack’s bill-splitting feature. Whether you're dining out, traveling, or paying rent with roommates, you can divide expenses quickly and fairly. The app calculates who owes what and tracks all balances. Automatic reminders ensure nobody forgets to settle up. Say goodbye to awkward conversations and hello to seamless sharing.</p>
+                    <h1 className='text-center font-[1000] text-[20px]  mb-2'>Split Cash Inflows</h1>
+                    <p className='text-justify mb-2'>Easily organize your income with FinTrack’s cash inflow splitter. Whether you're receiving payments, salary, or transfers, you can categorize your inflows into cash or account-based deposits. This helps you track how much physical cash you’re handling versus what's in your bank. Gain better financial clarity and control with every deposit. No more confusion—just clean, categorized income management.</p>
                 </div>
                 <div className="flex-1 flex flex-col md:mx-5 mb-4 border-1 border-gray-200 p-5 rounded shadow">
                     <span className='flex text-blue-800 text-[50px] justify-center mb-2'>{<FaFileExcel />}</span>
