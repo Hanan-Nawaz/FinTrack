@@ -20,7 +20,7 @@ function scrollTop() {
   return (
     
       showtoggle && (
-        <button className='fixed bottom-4 right-4 z-50 bg-blue-600 hover:border hover:border-blue-600 hover:bg-transparent hover:text-blue-500 text-white p-5 rounded-full'
+        <button className='fixed bottom-4 right-4 z-50 bg-blue-600 hover:border hover:border-blue-800 hover:bg-transparent hover:text-blue-800 text-white p-5 rounded-full'
           onClick={scrollToTop}
         >
           {<FaArrowUp className='w-5 h-5'/>}
