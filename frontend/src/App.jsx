@@ -6,6 +6,7 @@ import Contact from './components/contact';
 import Footer from './components/footer';
 import SignIn from './components/sign-in';
 import SignUp from './components/sign-up';
+import ScrollToTop from './components/scroll-top';
 import { Route, BrowserRouter, Routes } from 'react-router-dom'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         <Aboutus />
         <Features />
         <Contact />
+        <ScrollToTop />
       </>
     )
   }

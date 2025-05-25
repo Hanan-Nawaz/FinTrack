@@ -5,10 +5,10 @@ function footer() {
   return (
     <div className='bg-blue-500 mt-6 h-25 w-full'>
       <div className='flex iems-center justify-center pt-5'>
-        <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiLinkedin />}</a>
-        <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiGithub />}</a>
-        <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiGlobe />}</a>
-        <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiFacebook />}</a>
+        <a href='https://www.linkedin.com/in/abdulhanan0' className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiLinkedin />}</a>
+        <a href='https://www.github.com/hanan-nawaz' className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiGithub />}</a>
+        <a href='https://www.hanannawaz.me' className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiGlobe />}</a>
+        <a href='' className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiFacebook />}</a>
         <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiInstagram />}</a>
         <a className='text-white border-1 p-3 rounded-full hover:text-black mr-1'>{<FiTwitter />}</a>
       </div>
